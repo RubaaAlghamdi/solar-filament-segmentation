@@ -1,0 +1,20 @@
+{
+  "checkpoint": "contrast_comparison_clahe_512.keras",
+  "best_epoch": 39,
+  "input_size": 512,
+  "threshold": 0.4,
+  "tensorflow_version": "2.21.0",
+  "opencv_version": "4.14.0",
+  "preprocessing": {
+    "color_mode": "grayscale",
+    "resize": "bilinear",
+    "clahe": {
+      "clip_limit": 2.0,
+      "tile_grid_size": [
+        8,
+        8
+      ]
+    },
+    "normalize_divisor": 255.0
+  }
+}
